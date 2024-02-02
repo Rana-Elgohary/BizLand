@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>BizLand</title>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <script src="https://kit.fontawesome.com/d3bc0f0f7a.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="BizLand.css">
+    </head>
+    <body>
+        <!------------------------------------------------------ Header ------------------------------------------------------>
+        <header class="blueColor padd custom-font-size custom-font-size-s d-flex justify-content-between align-items-center text-light">
+            <section class="d-flex">
+                <div> <i class="fa-regular fa-envelope"></i> contanct@example.com</div>
+                <div> <i class="fa-solid fa-mobile-screen-button ms-3"></i> +1 5589 55488 55</div>
+            </section>
+            <section class="d-none d-md-flex">
+                <i class="fa-brands fa-twitter ms-4"></i>
+                <i class="fa-brands fa-facebook ms-4"></i>
+                <i class="fa-brands fa-instagram ms-4"></i>
+                <i class="fa-brands fa-linkedin ms-4"></i>
+            </section>
+        </header>
+
+        <!------------------------------------------------------ NavBar ------------------------------------------------------>
+        <nav class="padd py-3 d-flex justify-content-between align-items-center">
+            <h2>BizLand<span class="blueColorText">.</span></h2>
+            <div class="d-none d-lg-flex ms-4 align-items-center fw-medium">
+                <div class="ms-4 borBot">Home</div>
+                <div class="ms-4 borBot">About</div>
+                <div class="ms-4 borBot">Services</div>
+                <div class="ms-4 borBot">Portfolio</div>
+                <div class="ms-4 borBot">Team</div>
+                <div class="ms-4 borBot">Drop Down <i class="fa-solid fa-angle-down"></i></div>
+                <div class="ms-4 borBot">Contact</div>
+            </div>
+            <div class="d-lg-none">
+                <span class="hamburger d-block bg-black"></span>
+                <span class="hamburger d-block bg-black my-1"></span>
+                <span class="hamburger d-block bg-black"></span>
+            </div>
+        </nav>
+
+        <!------------------------------------------------------ Hero ------------------------------------------------------>
+        <section class="hero">
+            <div class="insideHero custom-font-size-ss">
+                <h1 class="fw-bolder custom-font-size-lg">Welcome to <span class="blueColorText">BizLand</span></h1>
+                <p class="fw-medium text-body-secondary">We are team of talanted designers making websites with Bootstrap</p>
+                <div class="mt-4 d-flex align-items-center">
+                    <button class="blueColor p-2 px-4 text-white rounded border-0">Get Started</button>
+                    <i class="fa-regular fa-circle-play me-1 ms-4 blueColorText fs-3"></i><span class="fw-medium">Watch Video</span>
+                </div>
+            </div>
+        </section>
+
+        <!------------------------------------------------------ Cards ------------------------------------------------------>
+        <section class="container-fluid my-5">
+            <div class="padd row row-cols-sm-2 row-cols-lg-4">
+                <div>
+                    <div class="col shadow p-4 mb-3 rounded">
+                        <i class="fa-solid fa-basketball blueColorText fs-3 mb-3"></i>
+                        <h5>Lorem Ipsum</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam harum quis facilis.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="col shadow p-4 mb-3 rounded">
+                        <i class="fa-regular fa-file-lines blueColorText fs-3 mb-3"></i>    
+                        <h5>Sed ut perspiciatis</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam harum quis facilis.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="col shadow p-4 mb-3 rounded">
+                        <i class="fa-solid fa-earth-americas blueColorText fs-3 mb-3"></i>
+                        <h5>Magni Dolores</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam harum quis facilis.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="col shadow p-4 rounded">
+                        <i class="fa-regular fa-file blueColorText fs-3 mb-3"></i>
+                        <h5>Nemo Enim</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam harum quis facilis.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!------------------------------------------------------ About ------------------------------------------------------>
+        <section class="blueColorOpacity2 padd py-5">
+            <div class="text-center">
+                <button class="blueColorText blueColorOpacity rounded-pill border-0 fw-semibold p-2 mb-3">ABOUT</button>
+                <div class="mx-auto justify-content-center row">
+                    <div class="col-12 col-lg-6">
+                        <h2>Find Out More <span class="blueColorText">About Us</span></h2>
+                        <p class="fw-medium text-body-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam harum quis facilis. Similique dignissimos est maiores culpa ducimus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-lg-2 gap-4">
+                <img class="aboutImage mx-auto" src="imgs/about.jpg">
+                <div class="text-body-secondary py-5 mx-auto">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam harum quis facilis.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, quia veniam. Similique dignissimos est maiores culpa ducimus.</p>
+                    <div class="my-5">
+                        <div class="d-flex align-items-center">
+                            <i class="fa-solid fa-store blueColorText bg-white p-3 me-4 h-auto fs-5 rounded-circle shadow"></i>
+                            <div>
+                                <h5>Ullamco laboris nisi aliquip consequat</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="fa-regular fa-images blueColorText bg-white p-3 me-4 h-auto fs-5 rounded-circle shadow"></i>
+                            <div>
+                                <h5>Magnam soluta odio exercitationem reprehendderi</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam harum quis facilis.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste expedita, architecto tempora voluptate reiciendis ut voluptates optio blanditiis! Quae nobis necessitatibus cumque assumenda molestiae ab voluptate quas ipsam sequi at. Iste expedita, architecto tempora voluptate reiciendis ut voluptates optio blanditiis! Quae nobis necessitatibus.</p>
+                </div>
+            </div>
+        </section>
+
+        <!------------------------------------------------------ Progress ------------------------------------------------------>
+        <section class="padd container-fluid my-5">
+            <div class="row row-cols-lg-2">
+                <div class="position-relative">
+                    <div class="progress me-5 my-4 rounded-0" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height: 8px; width: 100%;">
+                        <div class="progress-bar" style="width: 100%"></div>
+                        <div class="position-absolute top-0 fw-semibold">HTML</div>
+                        <div class="position-absolute top-0 end-0 me-3 fw-semibold">100%</div>
+                    </div>
+                </div>
+                <div class="position-relative">
+                    <div class="progress me-5 my-4 rounded-0" role="progressbar" aria-label="Basic example" aria-valuenow="80"  aria-valuemin="0"aria-valuemax="100" style="height: 8px; width: 100%;">
+                        <div class="progress-bar" style="width: 80%"></div>
+                        <div class="position-absolute top-0 fw-semibold">PHP</div>
+                        <div class="position-absolute top-0 end-0 me-3 fw-semibold">80%</div>
+                    </div>
+                </div>
+                <div class="position-relative">
+                    <div class="progress me-5 my-4 rounded-0" role="progressbar" aria-label="Basic example" aria-valuenow="90"  aria-valuemin="0"aria-valuemax="100" style="height: 8px; width: 100%;">
+                        <div class="progress-bar" style="width: 90%"></div>
+                        <div class="position-absolute top-0 fw-semibold">CSS</div>
+                        <div class="position-absolute top-0 end-0 me-3 fw-semibold">90%</div>
+                    </div>
+                </div>
+                <div class="position-relative">
+                    <div class="progress me-5 my-4 rounded-0" role="progressbar" aria-label="Basic example" aria-valuenow="90"  aria-valuemin="0"aria-valuemax="100" style="height: 8px; width: 100%;">
+                        <div class="progress-bar" style="width: 90%"></div>
+                        <div class="position-absolute top-0 fw-semibold">WORRDPRESS/CMS</div>
+                        <div class="position-absolute top-0 end-0 me-3 fw-semibold">90%</div>
+                    </div>
+                </div>
+                <div class="position-relative">
+                    <div class="progress me-5 my-4 rounded-0" role="progressbar" aria-label="Basic example" aria-valuenow="75"  aria-valuemin="0"aria-valuemax="100" style="height: 8px; width: 100%;">
+                        <div class="progress-bar" style="width: 75%"></div>
+                        <div class="position-absolute top-0 fw-semibold">JAVASCRIPT</div>
+                        <div class="position-absolute top-0 end-0 me-3 fw-semibold">75%</div>
+                    </div>
+                </div>
+                <div class="position-relative">
+                    <div class="progress me-5 my-4 rounded-0" role="progressbar" aria-label="Basic example" aria-valuenow="55"  aria-valuemin="0"aria-valuemax="100" style="height: 8px; width: 100%;">
+                        <div class="progress-bar" style="width: 55%"></div>
+                        <div class="position-absolute top-0 fw-semibold">PHOTOSHOP</div>
+                        <div class="position-absolute top-0 end-0 me-3 fw-semibold">55%</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!------------------------------------------------------ About cards ------------------------------------------------------>
+        <section class="padd container-fluid mt-5 text-center">
+            <div class="row row-cols-md-2 row-cols-lg-4">
+                <div class="position-relative mb-5">
+                    <div class="blueColorOpacity2 p-3 pt-5">
+                        <i class="fa-regular fa-face-smile blueColor text-white rounded-circle p-3 fs-5 position-absolute top-0 translate-middle"></i>
+                        <h2>232</h2>
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+                <div class="position-relative mb-5">
+                    <div class="blueColorOpacity2 p-3 pt-5">
+                        <i class="fa-regular fa-file blueColor text-white rounded-circle p-3 fs-5 position-absolute top-0 translate-middle"></i>
+                        <h2>521</h2>
+                        <p>Projects</p>
+                    </div>
+                </div>
+                <div class="position-relative mb-5">
+                    <div class="blueColorOpacity2 p-3 pt-5">
+                        <i class="fa-solid fa-headphones-simple blueColor text-white rounded-circle p-3 fs-5 position-absolute top-0 translate-middle"></i>
+                        <h2>1463</h2>
+                        <p>Hours Of Support</p>
+                    </div>
+                </div>
+                <div class="position-relative mb-5">
+                    <div class="blueColorOpacity2 p-3 pt-5">
+                        <i class="fa-solid fa-user-group blueColor text-white rounded-circle p-3 fs-5 position-absolute top-0 translate-middle"></i>
+                        <h2>15</h2>
+                        <p>Hard Workers</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!------------------------------------------------------ Clients ------------------------------------------------------>
+        <section class="padd blueColorOpacity2 py-4 container-fluid text-center">
+            <div class="row">
+                <div class="col-6 col-md-4 col-lg-2 mb-4 mb-lg-0">
+                    <img style="width: 80px;" src="imgs/clients/client-1.png">
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 mb-4 mb-lg-0">
+                    <img style="width: 80px;" src="imgs/clients/client-2.png">
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 mb-4 mb-lg-0">
+                    <img style="width: 80px;" src="imgs/clients/client-3.png">
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 mb-4 mb-lg-0">
+                    <img style="width: 80px;" src="imgs/clients/client-4.png">
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 mb-4 mb-lg-0">
+                    <img style="width: 80px;" src="imgs/clients/client-5.png">
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 mb-4 mb-lg-0">
+                    <img style="width: 80px;" src="imgs/clients/client-6.png">
+                </div>
+            </div>
+        </section>
+
+        <!------------------------------------------------------ Services ------------------------------------------------------>
+        <section class="padd py-5">
+            <div class="text-center">
+                <button class="blueColorText blueColorOpacity rounded-pill border-0 fw-semibold p-2 mb-3">SERVICES</button>
+                <div class="mx-auto justify-content-center row">
+                    <div class="col-12 col-lg-6">
+                        <h2>Check Our <span class="blueColorText">Services</span></h2>
+                        <p class="fw-medium text-body-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam harum quis facilis. Similique dignissimos est maiores culpa ducimus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-md-2 row-cols-lg-3">
+                <div>
+                    <div class="text-center border py-5 mb-4 mb-lg-0">
+                        <i class="fa-solid fa-basketball blueColorText blueColorOpacity2 fs-3 p-3 mt-5 border border-primary-subtle rounded"></i>
+                        <h2 class="my-3">Lorem Ipsum</h2>
+                        <p class="text-body-secondary mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam harum quis facilis.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="text-center border py-5 mb-4">
+                        <i class="fa-regular fa-file blueColorText blueColorOpacity2 fs-3 p-3 mt-5 border border-primary-subtle rounded"></i>
+                        <h2 class="my-3">Set ut Perspiciatis</h2>
+                        <p class="text-body-secondary mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam harum quis facilis.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="text-center border py-5 mb-4">
+                        <i class="fa-solid fa-mobile-screen-button blueColorText blueColorOpacity2 fs-3 p-3 mt-5 border border-primary-subtle rounded"></i>
+                        <h2 class="my-3">Magni Dolores</h2>
+                        <p class="text-body-secondary mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam harum quis facilis.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="text-center border py-5 mb-4">
+                        <i class="fa-solid fa-earth-americas blueColorText blueColorOpacity2 fs-3 p-3 mt-5 border border-primary-subtle rounded"></i>
+                        <h2 class="my-3">Nemo Enim</h2>
+                        <p class="text-body-secondary mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam harum quis facilis.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="text-center border py-5 mb-4">
+                        <i class="fa-solid fa-tv blueColorText blueColorOpacity2 fs-3 p-3 mt-5 border border-primary-subtle rounded"></i>
+                        <h2 class="my-3">Dele Cardo</h2>
+                        <p class="text-body-secondary mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam harum quis facilis.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="text-center border py-5 mb-4">
+                        <i class="fa-solid fa-torii-gate blueColorText blueColorOpacity2 fs-3 p-3 mt-5 border border-primary-subtle rounded"></i>
+                        <h2 class="my-3">Divera don</h2>
+                        <p class="text-body-secondary mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam harum quis facilis.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!------------------------------------------------------ Jena ------------------------------------------------------>
+        <section class="jena">
+            <div class="insideJena text-center text-light">
+                <img class="rounded-circle shadow-lg" src="imgs/testimonials/testimonials-3.jpg" style="width: 100px;">
+                <h3>Jena Karlis</h3>
+                <p>Store owner</p>
+
+                <i class="fa-solid fa-quote-left text-secondary fs-2"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, exercitationem aperiam. Non dolorem minus cupiditate repudiandae at doloribus incidunt iure error eius.
+                <i class="fa-solid fa-quote-right text-secondary fs-2 mb-5"></i>
+
+                <div>
+                    <span class="bg-secondary px-2 me-1 rounded-circle"></span>
+                    <span class="bg-secondary px-2 me-1 rounded-circle"></span>
+                    <span class="blueColor px-2 me-1 rounded-circle"></span>
+                    <span class="bg-secondary px-2 me-1 rounded-circle"></span>
+                    <span class="bg-secondary px-2 me-1 rounded-circle"></span>
+                </div>
+            </div>
+        </section>
+
+        <!------------------------------------------------------ Portfolio ------------------------------------------------------>
+        <section class="padd py-5">
+            <div class="text-center">
+                <button class="blueColorText blueColorOpacity rounded-pill border-0 fw-semibold p-2 mb-3">PORTFOLIO</button>
+                <div class="mx-auto justify-content-center row">
+                    <div class="col-12 col-lg-6">
+                        <h2>Check Our <span class="blueColorText">Portfolio</span></h2>
+                        <p class="fw-medium text-body-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam harum quis facilis. Similique dignissimos est maiores culpa ducimus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mt-4 fw-semibold">
+                <p class="blueColorText me-4">ALL</p>
+                <p class="me-4">APP</p>
+                <p class="me-4">CARD</p>
+                <p class="me-4">WEB</p>
+            </div>
+            <div class="">
+                <div class="row">
+                    <div class="col">
+                        <img class="mb-4 w-100" src="imgs/portfolio/portfolio-1.jpg">
+                        <img class="mb-4 w-100" src="imgs/portfolio/portfolio-6.jpg">
+
+                    </div>
+                    <div class="col">
+                        <img class="mb-4 w-100" src="imgs/portfolio/portfolio-2.jpg">
+                        <img class="mb-4 w-100" src="imgs/portfolio/portfolio-5.jpg">
+                        <img class="mb-4 w-100" src="imgs/portfolio/portfolio-9.jpg">
+                    </div>
+                    <div class="col">
+                        <img class="mb-4 w-100" src="imgs/portfolio/portfolio-3.jpg">
+                        <img class="mb-4 w-100" src="imgs/portfolio/portfolio-4.jpg">
+                        <img class="mb-4 w-100" src="imgs/portfolio/portfolio-7.jpg">
+                        <img class="mb-4 w-100" src="imgs/portfolio/portfolio-8.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!------------------------------------------------------ Team ------------------------------------------------------>
+        <section class="blueColorOpacity2 padd py-5">
+            <div class="text-center">
+                <button class="blueColorText blueColorOpacity rounded-pill border-0 fw-semibold p-2 mb-3">TEAM</button>
+                <div class="mx-auto justify-content-center row">
+                    <div class="col-12 col-lg-6">
+                        <h2>Our Hard Working <span class="blueColorText">Team</span></h2>
+                        <p class="fw-medium text-body-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam harum quis facilis. Similique dignissimos est maiores culpa ducimus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                    <div class="col">
+                        <div class="card shadow">
+                            <img src="imgs/team/team-1.jpg">
+                            <div class="card-body">
+                                <h5>Walter White</h5>
+                                <p class="text-body-secondary">Cheif Executive Officer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow">
+                            <img src="imgs/team/team-2.jpg">
+                            <div class="card-body">
+                                <h5>Sarah Jhonson</h5>
+                                <p class="text-body-secondary">Product Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow">
+                            <img src="imgs/team/team-3.jpg">
+                            <div class="card-body">
+                                <h5>William Anderson</h5>
+                                <p class="text-body-secondary">CTO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow">
+                            <img src="imgs/team/team-4.jpg">
+                            <div class="card-body">
+                                <h5>Amanda Jepson</h5>
+                                <p class="text-body-secondary">Accountant</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!------------------------------------------------------ Pricing ------------------------------------------------------>
+        <section class="padd py-5">
+            <div class="text-center">
+                <button class="blueColorText blueColorOpacity rounded-pill border-0 fw-semibold p-2 mb-3">Pricing</button>
+                <div class="mx-auto justify-content-center row">
+                    <div class="col-12 col-lg-6">
+                        <h2>Check Our <span class="blueColorText">Pricing</span></h2>
+                        <p class="fw-medium text-body-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam harum quis facilis. Similique dignissimos est maiores culpa ducimus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                    <div class="col">
+                        <div class="card shadow">
+                            <div class="bg-secondary bg-opacity-10 text-center py-3">
+                                <p class="text-body-secondary fw-semibold">Free</p>
+                            </div>
+                            <div class="text-center">
+                                <p class="text-body-tertiary">
+                                    <span class="blueColorText fw-semibold fs-2"><sup>$</sup>0</span> / month
+                                </p>
+                                <p>Aida dere</p>
+                                <p>Nec feugiat nisl</p>
+                                <p>Nulla at volutpat dola</p>
+                                <p class="text-body-tertiary text-decoration-line-through">Pharetra massa</p>
+                                <p class="text-body-tertiary text-decoration-line-through">Massa ultricies mi</p>
+                            </div>
+                            <div class="bg-secondary bg-opacity-10 text-center py-3">
+                                <button class="blueColor text-light border-0 p-2 px-4 rounded">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow">
+                            <div class="blueColor text-center py-3">
+                                <p class="text-light fw-semibold">Business</p>
+                            </div>
+                            <div class="text-center">
+                                <p class="text-body-tertiary">
+                                    <span class="blueColorText fw-semibold fs-2"><sup>$</sup>19</span> / month
+                                </p>
+                                <p>Aida dere</p>
+                                <p>Nec feugiat nisl</p>
+                                <p>Nulla at volutpat dola</p>
+                                <p>Pharetra massa</p>
+                                <p class="text-body-tertiary text-decoration-line-through">Massa ultricies mi</p>
+                            </div>
+                            <div class="bg-secondary bg-opacity-10 text-center py-3">
+                                <button class="blueColor text-light border-0 p-2 px-4 rounded">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow">
+                            <div class="bg-secondary bg-opacity-10 text-center py-3">
+                                <p class="text-body-secondary fw-semibold">Developer</p>
+                            </div>
+                            <div class="text-center">
+                                <p class="text-body-tertiary">
+                                    <span class="blueColorText fw-semibold fs-2"><sup>$</sup>29</span> / month
+                                </p>
+                                <p>Aida dere</p>
+                                <p>Nec feugiat nisl</p>
+                                <p>Nulla at volutpat dola</p>
+                                <p>Pharetra massa</p>
+                                <p>Massa ultricies mi</p>
+                            </div>
+                            <div class="bg-secondary bg-opacity-10 text-center py-3">
+                                <button class="blueColor text-light border-0 p-2 px-4 rounded">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow position-relative overflow-hidden">
+                            <div class="diagonal w-100  text-center blueColor position-absolute text-light p-1">Advanced</div>
+                            <div class="bg-secondary bg-opacity-10 text-center py-3">
+                                <p class="text-body-secondary fw-semibold">Ultimate</p>
+                            </div>
+                            <div class="text-center">
+                                <p class="text-body-tertiary">
+                                    <span class="blueColorText fw-semibold fs-2"><sup>$</sup>49</span> / month
+                                </p>
+                                <p>Aida dere</p>
+                                <p>Nec feugiat nisl</p>
+                                <p>Nulla at volutpat dola</p>
+                                <p>Pharetra massa</p>
+                                <p>Massa ultricies mi</p>
+                            </div>
+                            <div class="bg-secondary bg-opacity-10 text-center py-3">
+                                <button class="blueColor text-light border-0 p-2 px-4 rounded">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!------------------------------------------------------ FAQ ------------------------------------------------------>
+        <section class="blueColorOpacity2 padd py-5">
+            <div class="text-center">
+                <button class="blueColorText blueColorOpacity rounded-pill border-0 fw-semibold p-2 mb-3">F.A.Q</button>
+                <div class="mx-auto justify-content-center row">
+                    <div class="col-12 col-lg-6">
+                        <h2>Frequently Asked <span class="blueColorText">Questions</span></h2>
+                        <p class="fw-medium text-body-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam harum quis facilis. Similique dignissimos est maiores culpa ducimus.</p>
+                    </div>
+                </div>
+                <div class="mt-5 text-start d-flex justify-content-center">
+                    <div class="col-11 col-lg-9">
+                        <p><i class="fa-solid fa-angle-down"></i> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <hr>
+                        <p><i class="fa-solid fa-angle-down"></i> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <hr>
+                        <p><i class="fa-solid fa-angle-down"></i> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <hr>
+                        <p><i class="fa-solid fa-angle-down"></i> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <hr>
+                        <p><i class="fa-solid fa-angle-down"></i> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <hr>
+                        <p><i class="fa-solid fa-angle-down"></i> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!------------------------------------------------------ Contact ------------------------------------------------------>
+        <section class="padd py-5">
+            <div class="text-center">
+                <button class="blueColorText blueColorOpacity rounded-pill border-0 fw-semibold p-2 mb-3">CONTACT</button>
+                <div class="mx-auto justify-content-center row">
+                    <div class="col-12 col-lg-6">
+                        <h2><span class="blueColorText">Contact Us</span></h2>
+                        <p class="fw-medium text-body-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam harum quis facilis. Similique dignissimos est maiores culpa ducimus.</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-6 mt-4">
+                            <div class="shadow p-3">
+                                <i class="fa-solid fa-location-dot border p-2 fs-3 blueColorText rounded-circle"></i>
+                                <p class="text-body-secondary fw-bold mt-3">Our Address</p>
+                                <p class="text-body-secondary fw-semibold">A108 Adam Street, New York, NY 535022</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 mt-4">
+                            <div class="shadow p-3">
+                                <i class="fa-regular fa-envelope border p-2 fs-3 blueColorText rounded-circle"></i>
+                                <p class="text-body-secondary fw-bold mt-3">Email Us</p>
+                                <p class="text-body-secondary fw-semibold">Contact@example.com</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 mt-4">
+                            <div class="shadow p-3">
+                                <i class="fa-solid fa-phone-volume border p-2 fs-3 blueColorText rounded-circle"></i>
+                                <p class="text-body-secondary fw-bold mt-3">Call Us</p>
+                                <p class="text-body-secondary fw-semibold">+1 5589 55488 55</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 mt-4">
+                            <iframe name="location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123456.78901234567!2d-73.98765432109876!3d40.74881789782883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2594ce45f0c7b%3A0x6543210987654321!2sA108%20Adam%20Street%2C%20New%20York%2C%20NY%20535022!5e0!3m2!1sen!2sus!4v1642410573343!5m2!1sen!2sus" class="border-0 w-100 h-100"></iframe>
+                        </div>
+                        <div class="col-12 col-lg-6 mt-4">
+                            <div class="shadow p-4">
+                                <div class="opacity-75 row">
+                                    <div class="col-6">
+                                        <input class="p-2 w-100" type="text" placeholder="Your Name">
+                                    </div>
+                                    <div class="col-6">
+                                        <input class="p-2 w-100" type="email" placeholder="Your Email">
+                                    </div>
+                                </div>
+                                <input class="opacity-75 p-2 col-12 my-3" type="text" placeholder="Subject">
+                                <textarea class="opacity-75 p-2 col-12" placeholder="Message" style="height: 100px;"></textarea>
+                                <button class="blueColor text-light border-0 p-2 px-4 rounded mt-4">Send Messages</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!------------------------------------------------------ Newsletter ------------------------------------------------------>
+        <section class="blueColorOpacity2 padd py-5">
+            <div class="text-center">
+                <div class="mx-auto justify-content-center row">
+                    <div class="col-12 col-lg-6">
+                        <h2>Join Our Newsletter</h2>
+                        <p class="fw-medium text-body-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam harum quis facilis. Similique dignissimos est maiores culpa ducimus.</p>
+                        <div class="d-flex justify-content-center">
+                            <input type="text" class="border-0 shadow p-2 px-4 w-100">
+                            <button class="blueColor text-light border-0 p-2 px-4">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!------------------------------------------------------ Footer ------------------------------------------------------>
+        <section class="padd py-5">
+            <div class="container-fluid">
+                <div class="row ">
+                    <div class="col-md-6 col-lg-3">
+                        <h2>BizLand<span class="blueColorText">.</span></h2>
+                        <p class="text-body-secondary my-4">A108 Adam Street, New York, NY 535022</p>
+                        <p class="text-body-secondary"><span class="fw-bold">Phone: </span>+1 5589 55488 55</p>
+                        <p class="text-body-secondary"><span class="fw-bold">Email: </span>info@example.com</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mt-4">
+                        <h6>Useful Links</h6>
+                        <p class="text-body-secondary"><span class="blueColorText fw-bold">></span> Home</p>
+                        <p class="text-body-secondary"><span class="blueColorText fw-bold">></span> About Us</p>
+                        <p class="text-body-secondary"><span class="blueColorText fw-bold">></span> Services</p>
+                        <p class="text-body-secondary"><span class="blueColorText fw-bold">></span> Terms of Service</p>
+                        <p class="text-body-secondary"><span class="blueColorText fw-bold">></span> Privacy Policy</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mt-4">
+                        <h6>Our Services</h6>
+                        <p class="text-body-secondary"><span class="blueColorText fw-bold">></span> Web Design</p>
+                        <p class="text-body-secondary"><span class="blueColorText fw-bold">></span> Web Development</p>
+                        <p class="text-body-secondary"><span class="blueColorText fw-bold">></span> Product Manager</p>
+                        <p class="text-body-secondary"><span class="blueColorText fw-bold">></span> Marketing</p>
+                        <p class="text-body-secondary"><span class="blueColorText fw-bold">></span> Graphic Design</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mt-4">
+                        <h6>Our Social Networks</h6>
+                        <p class="text-body-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam harum quis.</p>
+                        <i class="fa-brands fa-skype text-light blueColor fs-5 p-2 rounded"></i>
+                        <i class="fa-brands fa-twitter text-light blueColor fs-5 p-2 rounded"></i>
+                        <i class="fa-brands fa-facebook text-light blueColor fs-5 p-2 rounded"></i>
+                        <i class="fa-brands fa-instagram text-light blueColor fs-5 p-2 rounded"></i>
+                        <i class="fa-brands fa-linkedin text-light blueColor fs-5 p-2 rounded"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!------------------------------------------------------ Bottom ------------------------------------------------------>
+        <section class="blueColorOpacity2 padd d-block text-center d-md-flex justify-content-between">
+            <p>© Copyright <span class="fw-semibold">BizLand</span>. All Rights Reserved</p>
+            <p>Designed By <span class="blueColorText">BootstrapMade</span></p>
+        </section>
+
+        <!------------------------------------------------------ JavaScript ------------------------------------------------------>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
